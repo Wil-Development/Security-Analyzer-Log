@@ -1,0 +1,6 @@
+Feb 10 10:12:01 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10
+Feb 10 10:12:30 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10
+Feb 10 10:12:50 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10
+Feb 10 10:20:10 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10
+Feb 10 10:21:10 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10
+Feb 10 10:14:05 server sshd[1234]: Accepted password for user1 from 192.168.1.10

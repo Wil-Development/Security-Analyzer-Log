@@ -1,0 +1,7 @@
+Finding Type,Severity,IP Address,User,Count,Start (UK),End (UK),Window Seconds
+Brute Force,LOW,192.168.1.10,N/A,3,10/02/2026 10:12:01 (GMT),10/02/2026 10:12:50 (GMT),120
+Success After Failures,HIGH,192.168.1.10,user1,5,10/02/2026 10:12:01 (GMT),10/02/2026 10:14:05 (GMT),600
+
+Top Offending IPs
+IP Address,Total Failed Attempts
+192.168.1.10,5
