@@ -49,6 +49,7 @@ This sequence may indicate a brute-force attack where the attacker eventually gu
 ## Example Log Format
 
 The script expects logs formatted like the following:
+
 10/02/2026 10:12:01 (GMT) LOGIN FAILED user=john ip=192.168.1.10
 
 10/02/2026 10:12:05 (GMT) LOGIN FAILED user=john ip=192.168.1.10
@@ -61,6 +62,11 @@ The script expects logs formatted like the following:
 
 ## Installation
 
-Clone the repository:
+Clone the repository:https://github.com/Wil-Development/Security-Analyzer-Log
+
+Navigate into the project folder:
+cd Security-Analyzer-Log
+
+
 
 
