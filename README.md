@@ -50,8 +50,11 @@ This sequence may indicate a brute-force attack where the attacker eventually gu
 
 The script expects logs formatted like the following:
 10/02/2026 10:12:01 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+
 10/02/2026 10:12:05 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+
 10/02/2026 10:12:08 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+
 10/02/2026 10:12:15 (GMT) LOGIN SUCCESS user=john ip=192.168.1.10
 
 ---
@@ -59,4 +62,5 @@ The script expects logs formatted like the following:
 ## Installation
 
 Clone the repository:
+
 
