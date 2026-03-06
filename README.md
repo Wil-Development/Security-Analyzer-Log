@@ -64,10 +64,22 @@ The script expects logs formatted like the following:
 
 Clone the repository:https://github.com/Wil-Development/Security-Analyzer-Log
 
-Navigate into the project folder:
+```
 
+Navigate into the project directory:
+
+```
 cd Security-Analyzer-Log
+```
+
+Run the log analyzer:
+
+```
 python analyzer.py sample.log
+```
+
+
+
 
 
 
