@@ -37,3 +37,26 @@ The script analyses authentication logs and looks for patterns such as:
 - IP addresses generating suspicious authentication behaviour
 
 Example detection pattern:
+Failed login
+Failed login
+Failed login
+Successful login
+
+This sequence may indicate a brute-force attack where the attacker eventually guesses the correct credentials.
+
+---
+
+## Example Log Format
+
+The script expects logs formatted like the following:
+10/02/2026 10:12:01 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+10/02/2026 10:12:05 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+10/02/2026 10:12:08 (GMT) LOGIN FAILED user=john ip=192.168.1.10
+10/02/2026 10:12:15 (GMT) LOGIN SUCCESS user=john ip=192.168.1.10
+
+---
+
+## Installation
+
+Clone the repository:
+
