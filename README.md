@@ -67,7 +67,91 @@ Clone the repository:https://github.com/Wil-Development/Security-Analyzer-Log
 Navigate into the project directory:
 
 cd Security-Analyzer-Log
+
+Ensure Python is installed
+
+---
+
+## Usage
+
+Run the script with a log file as input:
+
 python analyzer.py sample.log
+
+The script will analyse the log file and output suspicious authentication activity.
+
+Example output:
+
+Suspicious Activity Detected
+
+IP: 192.168.1.10
+Failed Attempts: 3
+Successful Login After Failures: Yes
+Severity: High
+
+---
+
+## CSV Export
+
+Investigation findings can be exported to a CSV file for documentation or further analysis.
+
+Example output file:
+
+results.csv
+
+---
+
+## Investigation Output
+
+Detected events can be exported to a CSV file for documentation or further analysis.
+
+Example fields included in the output:
+
+- Timestamp
+- Username
+- Source IP Address
+- Failed Login Count
+- Detection Severity
+
+---
+
+## Technologies Used
+
+- Python
+- Log parsing
+- Security event analysis
+- Behaviour-based detection logic
+
+---
+
+## Skills Demonstrated
+
+This project demonstrates practical cybersecurity capabilities including:
+
+- Security log analysis
+- Behavioural detection engineering
+- Credential attack detection
+- Security investigation automation
+- Threat detection logic development
+
+---
+
+## Potential Improvements
+
+Future improvements could include:
+
+- Real-time log monitoring
+- Integration with SIEM platforms
+- IP reputation enrichment using threat intelligence
+- Detection of additional attack techniques
+
+---
+
+## Author
+
+Wilson Bonaventura  
+Cybersecurity / SOC Analyst
+
 
 
 
